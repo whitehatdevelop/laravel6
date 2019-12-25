@@ -1,6 +1,12 @@
 @extends('plantilla.plantilla')
 
-@section('Laravel6 Shop')
+@section('titulo','Laravel6 Shop')
+
+@section('estilos')
+<link rel="stylesheet" type="text/css" href="{{ asset('asset/styles/main_styles.css')}}">
+<link rel="stylesheet" type="text/css" href="{{ asset('asset/styles/responsive.css')}}">
+
+@endsection
 
 @section('contenido')
 
