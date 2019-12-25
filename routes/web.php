@@ -41,7 +41,7 @@ Route::get('/', function () {
     //Obtener productos por categoria
     /*$prod = Categoria::find(1)->productos;
     return $prod;*/
-    return view('plantilla.plantilla');
+    return view('tienda.index');
 });
 
 Auth::routes();
